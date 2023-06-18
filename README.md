@@ -12,7 +12,7 @@ URL: https://localhost:44370/api/OgrenciBilgi/OGRENCI_NO
 
 ### Öğrenci Ekleme İçin
 URL: https://localhost:44370/api/OgrenciBilgi
-Body:
+
 {
   "ad": "string",
   "soyad": "string"
@@ -23,7 +23,7 @@ URL: https://localhost:44370/api/OgrenciBilgi/OGRENCI_NO
 
 ### Öğrenci Güncelleme İçin
 URL: https://localhost:44370/api/OgrenciBilgi
-Body:
+
 {
   "ogrencI_NO": 0,
   "ad": "string",
@@ -40,7 +40,7 @@ URL: https://localhost:44370/api/OgrenciNotlar/ID
 
 ### Notlar Ekleme İçin
 URL: https://localhost:44370/api/OgrenciNotlar
-Body:
+
 {
   "notu": 0,
   "ogrencI_NO": 0
@@ -51,7 +51,7 @@ URL: https://localhost:44370/api/OgrenciNotlar/ID
 
 ### Notlar Güncelleme İçin
 URL: https://localhost:44370/api/OgrenciNotlar
-Body:
+
 {
   "id": 0,
   "notu": 0,
