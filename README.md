@@ -1,78 +1,59 @@
-# Bilgi_Yon_Api
+# Bilgi Yön API
 
-# APİ KULLANIMI İÇİN BİLGİLER
+API kullanımı için aşağıdaki bilgileri kullanabilirsiniz:
 
-## ÖĞRENCİ BİLGİ EKRANI İÇİN
-  
-  
- ### ÖĞRENCİ LİSTELEME İÇİN;
- URL:https://localhost:44370/api/OgrenciBilgi
-    
- ### KİŞİ BAZLI ÖĞRENCİ LİSTELEME İÇİN;
- URL:https://localhost:44370/api/OgrenciBilgi/OGRENCI_NO
- 
- ### ÖĞRENCİ EKLEMEK İÇİN;
- URL:https://localhost:44370/api/OgrenciBilgi
- {
- 
+## Öğrenci Bilgi Ekranı İçin
+
+### Öğrenci Listeleme İçin
+URL: https://localhost:44370/api/OgrenciBilgi
+
+### Kişi Bazlı Öğrenci Listeleme İçin
+URL: https://localhost:44370/api/OgrenciBilgi/OGRENCI_NO
+
+### Öğrenci Ekleme İçin
+URL: https://localhost:44370/api/OgrenciBilgi
+Body:
+{
   "ad": "string",
   "soyad": "string"
- }
- 
-  ### ÖĞRENCİ SİLMEK İÇİN;
- URL:https://localhost:44370/api/OgrenciBilgi/OGRENCI_NO
+}
 
- 
-  ### ÖĞRENCİ GÜNCELLEMEK İÇİN;
- URL:https://localhost:44370/api/OgrenciBilgi
+### Öğrenci Silme İçin
+URL: https://localhost:44370/api/OgrenciBilgi/OGRENCI_NO
+
+### Öğrenci Güncelleme İçin
+URL: https://localhost:44370/api/OgrenciBilgi
+Body:
 {
   "ogrencI_NO": 0,
   "ad": "string",
   "soyad": "string"
 }
 
+## Notlar Bilgi Ekranı İçin
 
- ## NOTLAR BİLGİ EKRANI İÇİN
- 
- 
-  ### NOTLAR LİSTELEME İÇİN;
-https://localhost:44370/api/OgrenciNotlar    
+### Notlar Listeleme İçin
+URL: https://localhost:44370/api/OgrenciNotlar
 
-    
- ### KİŞİ BAZLI NOTLAR LİSTELEME İÇİN;
- https://localhost:44370/api/OgrenciNotlar/ID    
+### Kişi Bazlı Notlar Listeleme İçin
+URL: https://localhost:44370/api/OgrenciNotlar/ID
 
-  
- ### NOTLAR EKLEMEK İÇİN;
- https://localhost:44370/api/OgrenciNotlar    
-
+### Notlar Ekleme İçin
+URL: https://localhost:44370/api/OgrenciNotlar
+Body:
 {
- 
   "notu": 0,
   "ogrencI_NO": 0
 }
- 
-  ### NOTLAR SİLMEK İÇİN;
-https://localhost:44370/api/OgrenciNotlar/ID    
 
- 
-  ### NOTLAR GÜNCELLEMEK İÇİN;
- https://localhost:44370/api/OgrenciNotlar    
+### Notlar Silme İçin
+URL: https://localhost:44370/api/OgrenciNotlar/ID
+
+### Notlar Güncelleme İçin
+URL: https://localhost:44370/api/OgrenciNotlar
+Body:
 {
   "id": 0,
   "notu": 0,
   "ogrencI_NO": 0
 }
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-  
